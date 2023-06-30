@@ -1,0 +1,11 @@
+POST /business/v1/integration/gwb/notification HTTP/1.1
+Accept: application/json
+Accept-Charset: utf-8
+Content-Type: application/json
+Content-Length: 638
+Host: 172.29.214.64:7443
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.5)
+Accept-Encoding: gzip,deflate
+
+{"event":"Debit","data":{"accountName":"NAME1 ACC 2093029277 ","productCode":"","accountType":"D","accountNumber":"2093029277","accountCurrency":"MYR","amount":22.00,"transactionType":"D","ourReference":"","yourReference":"test","transactionText":"JUBINBMS","transactionDateTime":"28-06-2023 11:27:47","businessDate":"280623","effectiveDate":"","subAccountIndicator":"","payNowIndicator":"","notificationId":"2306281127482090548133","endToEndId":"","purposeCode":"","transactionId":"","transactionDescription":"Fund Trf EB"},"url":"https://account-api.qne.cloud/api/uob/uat/notification","clientId":"7116aea1-d8f2-4568-9bce-8da1631bd7a6"}
